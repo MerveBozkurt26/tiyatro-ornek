@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\obj\Debug\tiyatro-ornek.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\obj\Debug\tiyatro-ornek.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\obj\Debug\tiyatro_ornek.Form1.resources
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\obj\Debug\tiyatro_ornek.Properties.Resources.resources
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\obj\Debug\tiyatro-ornek.csproj.GenerateResource.cache
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\obj\Debug\tiyatro-ornek.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\bin\Debug\tiyatro-ornek.exe.config
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\bin\Debug\tiyatro-ornek.exe
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\bin\Debug\tiyatro-ornek.pdb
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\obj\Debug\tiyatro-ornek.exe
+C:\Users\User\Desktop\KORUMASIZ\Merve Bozkurt 230\tiyatro-ornek\tiyatro-ornek\obj\Debug\tiyatro-ornek.pdb

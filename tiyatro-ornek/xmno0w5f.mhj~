@@ -1,0 +1,281 @@
+﻿namespace tiyatro_ornek
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.lblId = new System.Windows.Forms.Label();
+            this.lblAd = new System.Windows.Forms.Label();
+            this.lblSahne = new System.Windows.Forms.Label();
+            this.lblFiyat = new System.Windows.Forms.Label();
+            this.lblSure = new System.Windows.Forms.Label();
+            this.chkMuzik = new System.Windows.Forms.CheckBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.txtFiyat = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.btnEkle = new System.Windows.Forms.Button();
+            this.btnSil = new System.Windows.Forms.Button();
+            this.btnGuncelle = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // lblId
+            // 
+            this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblId.Location = new System.Drawing.Point(12, 9);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(35, 13);
+            this.lblId.TabIndex = 0;
+            this.lblId.Text = "ID";
+            // 
+            // lblAd
+            // 
+            this.lblAd.AutoSize = true;
+            this.lblAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAd.Location = new System.Drawing.Point(12, 40);
+            this.lblAd.Name = "lblAd";
+            this.lblAd.Size = new System.Drawing.Size(23, 15);
+            this.lblAd.TabIndex = 1;
+            this.lblAd.Text = "Ad";
+            // 
+            // lblSahne
+            // 
+            this.lblSahne.AutoSize = true;
+            this.lblSahne.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSahne.Location = new System.Drawing.Point(12, 130);
+            this.lblSahne.Name = "lblSahne";
+            this.lblSahne.Size = new System.Drawing.Size(48, 15);
+            this.lblSahne.TabIndex = 2;
+            this.lblSahne.Text = "Sahne";
+            // 
+            // lblFiyat
+            // 
+            this.lblFiyat.AutoSize = true;
+            this.lblFiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblFiyat.Location = new System.Drawing.Point(12, 191);
+            this.lblFiyat.Name = "lblFiyat";
+            this.lblFiyat.Size = new System.Drawing.Size(37, 15);
+            this.lblFiyat.TabIndex = 3;
+            this.lblFiyat.Text = "Fiyat";
+            // 
+            // lblSure
+            // 
+            this.lblSure.AutoSize = true;
+            this.lblSure.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSure.Location = new System.Drawing.Point(12, 101);
+            this.lblSure.Name = "lblSure";
+            this.lblSure.Size = new System.Drawing.Size(37, 15);
+            this.lblSure.TabIndex = 4;
+            this.lblSure.Text = "Süre";
+            // 
+            // chkMuzik
+            // 
+            this.chkMuzik.AutoSize = true;
+            this.chkMuzik.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.chkMuzik.Location = new System.Drawing.Point(15, 156);
+            this.chkMuzik.Name = "chkMuzik";
+            this.chkMuzik.Size = new System.Drawing.Size(76, 19);
+            this.chkMuzik.TabIndex = 6;
+            this.chkMuzik.Text = "Müzikal";
+            this.chkMuzik.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Herkes Sihirbaz Olucak",
+            "12.Gece",
+            "Kuğunun Şarkısı",
+            "Kutlama",
+            "Fındıkkıran",
+            "Ben Küçük Yıldızım",
+            "Ben Medea Değilim"});
+            this.comboBox1.Location = new System.Drawing.Point(77, 129);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 7;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Herkes Sihirbaz Olucak",
+            "12.Gece",
+            "Kuğunun Şarkısı",
+            "Kutlama",
+            "Fındıkkıran",
+            "Ben Küçük Yıldızım",
+            "Ben Medea Değilim "});
+            this.comboBox2.Location = new System.Drawing.Point(77, 40);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 8;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(109, 72);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 9;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(78, 103);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown1.TabIndex = 10;
+            // 
+            // txtFiyat
+            // 
+            this.txtFiyat.Location = new System.Drawing.Point(78, 191);
+            this.txtFiyat.Name = "txtFiyat";
+            this.txtFiyat.Size = new System.Drawing.Size(100, 20);
+            this.txtFiyat.TabIndex = 12;
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(75, 14);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(100, 20);
+            this.txtId.TabIndex = 13;
+            // 
+            // btnEkle
+            // 
+            this.btnEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnEkle.Image = global::tiyatro_ornek.Properties.Resources._002_diskette;
+            this.btnEkle.Location = new System.Drawing.Point(347, 26);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(124, 70);
+            this.btnEkle.TabIndex = 14;
+            this.btnEkle.Text = "Ekle";
+            this.btnEkle.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEkle.UseVisualStyleBackColor = true;
+            // 
+            // btnSil
+            // 
+            this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSil.Image = global::tiyatro_ornek.Properties.Resources._003_bin;
+            this.btnSil.Location = new System.Drawing.Point(477, 26);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(124, 70);
+            this.btnSil.TabIndex = 15;
+            this.btnSil.Text = "Sil";
+            this.btnSil.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSil.UseVisualStyleBackColor = true;
+            // 
+            // btnGuncelle
+            // 
+            this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGuncelle.Image = global::tiyatro_ornek.Properties.Resources._001_refresh;
+            this.btnGuncelle.Location = new System.Drawing.Point(616, 26);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(124, 70);
+            this.btnGuncelle.TabIndex = 16;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnGuncelle.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 241);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(798, 237);
+            this.dataGridView1.TabIndex = 17;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 478);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnGuncelle);
+            this.Controls.Add(this.btnSil);
+            this.Controls.Add(this.btnEkle);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.txtFiyat);
+            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.chkMuzik);
+            this.Controls.Add(this.lblSure);
+            this.Controls.Add(this.lblFiyat);
+            this.Controls.Add(this.lblSahne);
+            this.Controls.Add(this.lblAd);
+            this.Controls.Add(this.lblId);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label lblId;
+        private System.Windows.Forms.Label lblAd;
+        private System.Windows.Forms.Label lblSahne;
+        private System.Windows.Forms.Label lblFiyat;
+        private System.Windows.Forms.Label lblSure;
+        private System.Windows.Forms.CheckBox chkMuzik;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.TextBox txtFiyat;
+        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Button btnEkle;
+        private System.Windows.Forms.Button btnSil;
+        private System.Windows.Forms.Button btnGuncelle;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label1;
+    }
+}
+
